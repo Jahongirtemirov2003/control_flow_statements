@@ -9,5 +9,14 @@
         a: integer
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False. */
-
-void main() {}
+int func(int a){
+    if(9<a){
+        return(a%10*a~/10);
+    }
+    else{
+        return(a);
+    }
+}
+void main() {
+    print(func(58));
+}

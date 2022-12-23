@@ -7,4 +7,15 @@
     Returns:
         a: a increased by 1 if positive, else unchanged.
  */
-void main() {}
+ int func (int d){
+ if(d>0){
+   return d+1;
+  }
+  else{
+   return d;
+  }
+
+ }
+void main() {
+    print(func(4));
+}
