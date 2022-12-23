@@ -8,7 +8,7 @@
         c: integer
     returns:
         integer: the number of positive numbers in the given numbers */
-int func(int a, int b, int c){
+int func (int a, int b, int c){
  int s=0;
  if(a>0){
      return(s+1); 

@@ -9,20 +9,13 @@
     returns:
         integer: the number of negative numbers in the given numbers*/
 int func (int a, int b, int c){
- int s=0;
- if(a<0){
-     return(s+1); 
-   }
-   else if(b<0)
-   {
-        return(s+1);
-    }
-    else if(c<0)
-    {
-        return(s+1);
-    }
+    int s=0;
+ if(a<0) s+1;
+ if(b<0) s+1;
+ if(c<0) s+1;
+ return s;
    
         }
 void main() {
-    print(func(-9,45,67));
+    print(func(4,-3,8));
 }
